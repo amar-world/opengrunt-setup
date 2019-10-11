@@ -1,0 +1,25 @@
+<mvc:View xmlns:core="sap.ui.core" 
+	xmlns:mvc="sap.ui.core.mvc" 
+	xmlns="sap.m" controllerName="com.golit.ut.uitemplate.controller.TemplateView" 
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title on Tempate">
+		<List items="{
+	path:'listDataValue>/',
+	sorter:{
+		path:'title',
+		group:true
+	}}">
+			<items>
+				<CustomListItem>
+					<Label text="{listDataValue>name}"></Label>
+					<Label text="{listDataValue>id}"></Label>
+					<HBox items="{listDataValue>ProblemTimelineFunction/}">
+						<Label text="{listDataValue>ResponsiblePerson}"/>
+						<Text text="{listDataValue>FunctionalArea}"></Text>
+					</HBox>
+				</CustomListItem>
+			</items>
+		</List>
+
+	</Page>
+</mvc:View>

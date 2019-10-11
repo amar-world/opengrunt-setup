@@ -1,0 +1,50 @@
+<core:FragmentDefinition xmlns:l="sap.ui.layout" xmlns="sap.m" xmlns:f="sap.ui.layout.form" xmlns:core="sap.ui.core" class="viewPadding">
+	<Popover showHeader="false" placement="VerticalPreferredBottom" class="customProfileInofPopover customProfileInofPopOverBG">
+		<l:VerticalLayout >
+			<HBox backgroundDesign="Transparent">
+				<Image src="./image/Logo.png" class="sapUiTinyMargin customPopProfileImage" width="60%"></Image>
+				<Label text="Amarjeet kumar singh is good" wrapping="true" class="customPopProfileText"></Label>
+				<Text class="sapUiTinyMargin"></Text>
+				<Text class="sapUiTinyMargin"></Text>
+				<Text class="sapUiTinyMargin"></Text>
+				<!--<Button class="sapUiTinyMargin" icon="sap-icon://home"></Button>-->
+				<!--<Button class="sapUiTinyMargin" icon="sap-icon://home"></Button>-->
+				<!--<Button class="sapUiTinyMargin" icon="sap-icon://home"></Button>-->
+				<layoutData>
+					<FlexItemData growFactor="1" shrinkFactor="0"/>
+				</layoutData>
+			</HBox>
+			<HBox alignContent="SpaceBetween" backgroundDesign="Transparent">
+				<Button class="sapUiTinyMargin" icon="sap-icon://home"></Button>
+				<Button class="sapUiTinyMargin" icon="sap-icon://home"></Button>
+				<Button class="sapUiTinyMargin" icon="sap-icon://home"></Button>
+				<layoutData>
+					<FlexItemData growFactor="1" shrinkFactor="0"/>
+				</layoutData>
+			</HBox>
+		</l:VerticalLayout>
+		<!--<VBox class="customProfileInofPopOverBG">-->
+		<!--<HBox backgroundDesign="Transparent">-->
+		<!--	<Image src="./image/Logo.png" class="customPopProfileImage" width="40%"></Image>-->
+		<!--	<Label text="Amarjeet kumar singh is good" wrapping="true" class="customPopProfileText"></Label>-->
+		<!--	<layoutData>-->
+		<!--	<FlexItemData growFactor="1" shrinkFactor="0"/>-->
+		<!--</layoutData>-->
+		<!--</HBox>-->
+		<!--<VBox backgroundDesign="Transparent" >-->
+		<!--	<Button icon="sap-icon://home"></Button>-->
+		<!--	<Button icon="sap-icon://home"></Button>-->
+		<!--	<Button icon="sap-icon://home"></Button>-->
+		<!--<layoutData>-->
+		<!--	<FlexItemData growFactor="1" shrinkFactor="0"/>-->
+		<!--</layoutData>-->
+		<!--</VBox>-->
+	</Popover>
+	<!--<l:VerticalLayout width="100%" class="gridWrapper">-->
+	<!--	<l:Grid containerQuery="true" position="Center" width="65%">-->
+	<!--		<Button icon="sap-icon://home"></Button>-->
+	<!--		<Button icon="sap-icon://home"></Button>-->
+	<!--		<Button icon="sap-icon://home"></Button>-->
+	<!--	</l:Grid>-->
+	<!--</l:VerticalLayout>-->
+</core:FragmentDefinition>

@@ -1,0 +1,12 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" 
+	controllerName="com.golit.ms.landingpage.controller.AppTileContainer"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:tnt="sap.tnt" xmlns:ux="sap.uxap" xmlns:f="sap.f">
+	<f:ShellBar title="header" homeIcon="" showMenuButton="true" showNavButton="true" showCopilot="true" showSearch="true"
+			showNotifications="true" showProductSwitcher="true"></f:ShellBar>
+	<Shell  class="sapUiBody" id="_landingpageShellId" title="LandingPage" showLogout="true" headerRightText="{i18n>appTitle}" appWidthLimited="false"
+		backgroundRepeat="false">
+		
+	</Shell>
+	<!-- <Page class="sapUiBody" id="contentShellBody"></Page> -->
+	<!-- <html:div class="sapUiBody" id="contentShellBody"></html:div> -->
+</mvc:View>

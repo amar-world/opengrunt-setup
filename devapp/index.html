@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jerry's test Fiori application</title>
+
+    <script>
+        window["sap-ushell-config"] = {
+            defaultRenderer: "fiori2",
+            renderers: {
+                fiori2: {
+                    componentData: {
+                        config: {
+                            search: "hidden"
+                        }
+                    }
+                }
+            },
+
+            applications: {
+                "jerrytestfiori-display": {
+                    additionalInformation: "SAPUI5.Component=com.golit.ms.landingpage",
+                    applicationType: "URL",
+                    url: "./mscompanycode/",
+                    title: "First tile"
+                }
+            }
+        };
+    </script>
+
+    <script src="./resources/sandbox.js"
+        id="sap-ushell-bootstrap"></script>
+
+
+    <script 
+    src="./resources/sap-ui-core.js" 
+    id="sap-ui-bootstrap" 
+    data-sap-ui-libs="sap.m, sap.ushell, sap.ui.comp"
+    data-sap-ui-theme="sap_bluecrystal" 
+    data-sap-ui-xx-bindingSyntax="complex">
+    </script>
+
+    <script>
+        sap.ui.getCore().attachInit(function () {
+            debugger
+            sap.ushell.Container.createRenderer().placeAt("content");
+        });
+    </script>
+</head>
+
+<body class="sapUiBody" role="application">
+    <div id="content"></div>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+/* Enter your custom styles here */
+
+
+/*color chaging Css style*/
+
+
+/*customBackGroundStyle is for Background color change for login page*/
+.loginStyleBody {
+    background: url('http://cdn.wallpapersafari.com/13/6/Mpsg2b.jpg');
+    margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    background-size: 100% 110%;
+}
+
+
+.customBackGroundStyle {
+    background: linear-gradient(to bottom, #a9c4df, #e7ecf0);
+}
+
+
+/*customErrorTextColor is for text color for error message*/
+
+.customErrorTextColor {
+    color: red;
+}
+
+.customVerticalBar {
+    border-left: 1px solid #9a9a9a;
+}
+
+.sapMPanelContent:not(.sapMPanelBGTransparent) {
+    border-bottom: 0px solid #cccccc;
+}
+
+.customPopProfileImage {
+    background: #f00;
+    border-radius: 50%;
+}
+
+.customProfileInofPopOverBG {
+    background-color: #72c5becf !important;
+}
+
+.sapMPopoverCont {
+    background: transparent !important;
+}
+
+.customPopProfileText {
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+
+.customProfileInofPopover {
+    border: 1px solid;
+    width: 50%;
+    height: 50%;
+}
+
+
+/*customToolBarHeader is for toolBar header color for landing page*/
+
+.customToolBarHeader {
+    background-color: #5896a0 !important;
+}
+
+.sapUiDSC.sapUiContentPadding>aside {
+    padding-top: 9.7rem;
+    box-sizing: border-box;
+}
+
+.sapUiDSC>.sapUiDSCSpan4 {
+    width: 50%;
+}
+
+.sapUiDSC>.sapUiDSCSpan8 {
+    width: 40%;
+}
+
+.sapMShellBrandingBar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0px;
+    z-index: 1;
+    background-color: #427cac;
+}

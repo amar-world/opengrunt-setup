@@ -1,0 +1,171 @@
+[{
+	"SecTitle": "Master Data",
+	"tileItems": [{
+		"header": "Company Code",
+		"subheader": "Company Code",
+		"unit": "",
+		"footer": "Company Code Information",
+		"src": "sap-icon://company-view",
+		"navigationInfo": {
+			"uriToLoad": "./mscompanycode/webapp/",
+			"projectName": "templateView",
+			"componentName": "com.golit.ut.uitemplate",
+			"projectId": "",
+			"tileType": "display",
+			"semanticObject": "CompanyCode",
+			"navigationParameter": ""
+		}
+	}, {
+		"header": "First Tile Header2",
+		"subheader": "First Tile SubHeader2",
+		"unit": "INR",
+		"footer": "First Tile footer2",
+		"src": "sap-icon://home",
+			"navigationInfo": {
+			"uriToLoad": "",
+			"projectName":"FirstHeader2",
+			"componentName": "",
+			"projectId": "",
+			"tileType": "display",
+			"semanticObject": "Dealer",
+			"navigationParameter": ""
+		}
+	}, {
+		"header": "First Tile Header3",
+		"subheader": "First Tile SubHeader3",
+		"unit": "INR",
+		"footer": "First Tile footer3",
+		"src": "sap-icon://home-share",
+		"navigationInfo": {
+			"uriToLoad": "",
+			"projectName":"FirstHeader3",
+			"componentName": "",
+			"projectId": "",
+			"navigationParameter": ""
+		}
+	}, {
+		"header": "First Tile Header4",
+		"subheader": "First Tile SubHeader4",
+		"unit": "INR",
+		"footer": "First Tile footer4",
+		"src": "sap-icon://home-share",
+		"navigationInfo": {
+			"uriToLoad": "",
+			"projectName":"FirstHeader4",
+			"componentName": "",
+			"projectId": "",
+			"navigationParameter": ""
+		}
+	}, {
+		"header": "First Tile Header5",
+		"subheader": "First Tile SubHeader5",
+		"unit": "INR",
+		"footer": "First Tile footer5",
+		"src": "sap-icon://home-share",
+		"navigationInfo": {
+			"uriToLoad": "",
+			"componentName": "",
+			"projectId": "",
+			"navigationParameter": ""
+		}
+	}, {
+		"header": "First Tile Header6",
+		"subheader": "First Tile SubHeader6",
+		"unit": "INR",
+		"footer": "First Tile footer6",
+		"src": "sap-icon://home-share",
+		"navigationInfo": {
+			"uriToLoad": "",
+			"componentName": "",
+			"projectId": "",
+			"navigationParameter": ""
+		}
+	}, {
+		"header": "First Tile Header",
+		"subheader": "First Tile SubHeader",
+		"unit": "INR",
+		"footer": "First Tile footer",
+		"src": "sap-icon://home-share",
+		"navigationInfo": {
+			"uriToLoad": "",
+			"componentName": "",
+			"projectId": "",
+			"navigationParameter": ""
+		}
+	}, {
+		"header": "First Tile Header2",
+		"subheader": "First Tile SubHeader2",
+		"unit": "INR",
+		"footer": "First Tile footer2",
+		"src": "sap-icon://home-share",
+		"navigationInfo": {
+			"uriToLoad": "",
+			"componentName": "",
+			"projectId": "",
+			"navigationParameter": ""
+		}
+	}, {
+		"header": "First Tile Header3",
+		"subheader": "First Tile SubHeader3",
+		"unit": "INR",
+		"footer": "First Tile footer3",
+		"src": "sap-icon://home-share",
+		"navigationInfo": {
+			"uriToLoad": "",
+			"componentName": "",
+			"projectId": "",
+			"navigationParameter": ""
+		}
+	}, {
+		"header": "First Tile Header4",
+		"subheader": "First Tile SubHeader4",
+		"unit": "INR",
+		"footer": "First Tile footer4",
+		"src": "sap-icon://home-share",
+		"navigationInfo": {
+			"uriToLoad": "",
+			"componentName": "",
+			"projectId": "",
+			"navigationParameter": ""
+		}
+	}, {
+		"header": "First Tile Header5",
+		"subheader": "First Tile SubHeader5",
+		"unit": "INR",
+		"footer": "First Tile footer5",
+		"src": "sap-icon://home-share",
+		"navigationInfo": {
+			"uriToLoad": "",
+			"componentName": "",
+			"projectId": "",
+			"navigationParameter": ""
+		}
+	}, {
+		"header": "First Tile Header6",
+		"subheader": "First Tile SubHeader6",
+		"unit": "INR",
+		"footer": "First Tile footer6",
+		"src": "sap-icon://home-share",
+		"navigationInfo": {
+			"uriToLoad": "",
+			"componentName": "",
+			"projectId": "",
+			"navigationParameter": ""
+		}
+	}]
+}, {
+	"SecTitle": "Second Section",
+	"tileItems": [{
+		"header": "Second Tile Header",
+		"subheader": "Second Tile SubHeader",
+		"unit": "INR",
+		"footer": "Second Tile footer",
+		"src": "sap-icon://home-share",
+		"navigationInfo": {
+			"uriToLoad": "",
+			"componentName": "",
+			"projectId": "",
+			"navigationParameter": ""
+		}
+	}]
+}]
